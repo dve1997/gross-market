@@ -1,27 +1,15 @@
-# vite-template-redux
+В данном тестовом задание использовался следующий стек технологий:
+* React + React Router Dom + Redux Toolkit + Vite
+* ESLint + Prettier
+* TypeScript
+* Для наглядной работы со стейт менеджером Redux пользуется json-server
+* Для удобства запросов на сервер используется axios
+* Для работы с формами используется formik, yup, react-text-mask
+* Для назначения id используется uuid
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
-
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
-```
-
-## Goals
-
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
-
-## Scripts
-
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
-
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+Путь проверки выполнения задания предлагаю следующий:
+1. Создаете папку в любой директории компьютера
+2. Выгружаете в эту папку проект при помощи команды git clone https://github.com/dve1997/gross-market.git
+3. Запускаете терминал в VS Code
+4. Запускаете проект при помощи команды npm run dev
+5. После запуска проекта запустятся два localhost-а на 5173 порту (app) и на 3001 порту (json-server).
