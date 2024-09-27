@@ -1,0 +1,189 @@
+{
+  "baner": [
+    {
+      "id": "1",
+      "title": "У тебя к этому талант",
+      "speciality": "пекарь",
+      "name": "валентин",
+      "img": "http://localhost:5173/gross-market/src/images/anons/rovar.jpg"
+    },
+    {
+      "id": "2",
+      "title": "У тебя все под контролем",
+      "speciality": "товаровед",
+      "name": "ксения",
+      "img": "http://localhost:5173/gross-market/src/images/anons/commodityExpert.jpg"
+    }
+  ],
+  "positions": [
+    {
+      "id": "1",
+      "name": "товаровед",
+      "img": "http://localhost:5173/gross-market/src/images/positions/commodityExpertSlider.jpg"
+    },
+    {
+      "id": "2",
+      "name": "водитель",
+      "img": "http://localhost:5173/gross-market/src/images/positions/driver.jpg"
+    },
+    {
+      "id": "3",
+      "name": "пекарь",
+      "img": "http://localhost:5173/gross-market/src/images/positions/baker.jpg"
+    },
+    {
+      "id": "4",
+      "name": "кассир",
+      "img": "http://localhost:5173/gross-market/src/images/positions/cashier.jpg"
+    },
+    {
+      "id": "5",
+      "name": "продавец",
+      "img": "http://localhost:5173/gross-market/src/images/positions/salesman.jpg"
+    },
+    {
+      "id": "6",
+      "name": "повар",
+      "img": "http://localhost:5173/gross-market/src/images/positions/rovarSlider.jpg"
+    },
+    {
+      "id": "7",
+      "name": "приемщик",
+      "img": "http://localhost:5173/gross-market/src/images/positions/receiver.jpg"
+    }
+  ],
+  "inst": [
+    {
+      "id": "1",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray1.jpg"
+    },
+    {
+      "id": "2",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray2.jpg"
+    },
+    {
+      "id": "3",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray3.jpg"
+    },
+    {
+      "id": "4",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray4.jpg"
+    },
+    {
+      "id": "5",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray5.jpg"
+    },
+    {
+      "id": "6",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray6.jpg"
+    },
+    {
+      "id": "7",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray7.jpg"
+    },
+    {
+      "id": "8",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray8.jpg"
+    },
+    {
+      "id": "9",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray9.jpg"
+    },
+    {
+      "id": "10",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray10.jpg"
+    },
+    {
+      "id": "11",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray11.jpg"
+    },
+    {
+      "id": "12",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray11.jpg"
+    },
+    {
+      "id": "13",
+      "img": "http://localhost:5173/gross-market/src/images/inst/gray11.jpg"
+    }
+  ],
+  "vacancies": [
+    {
+      "id": "1",
+      "vacancy": "товаровед"
+    },
+    {
+      "id": "2",
+      "vacancy": "водитель"
+    },
+    {
+      "id": "3",
+      "vacancy": "пекарь"
+    },
+    {
+      "id": "4",
+      "vacancy": "кассир"
+    },
+    {
+      "id": "5",
+      "vacancy": "продавец"
+    },
+    {
+      "id": "6",
+      "vacancy": "повар"
+    },
+    {
+      "id": "7",
+      "vacancy": "приемщик"
+    }
+  ],
+  "candidatesForEmployment": [
+    {
+      "id": "1dfce8e2-b6a9-4446-86c3-174117ae8095",
+      "vacancy": "товаровед",
+      "fio": "Денисова Диана Олеговна",
+      "dateOfBirth": "2024-09-26",
+      "floor": "женский",
+      "contactPhoneNumber": "89603701772",
+      "email": "example@gmail.com",
+      "resume": "",
+      "captchaRobot": true,
+      "captchaConsent": true
+    },
+    {
+      "id": "99239180-5db9-4aa3-9680-d9821c7bb6f9",
+      "vacancy": "водитель",
+      "fio": "Денисов Владислав Евгеньевич",
+      "dateOfBirth": "2024-09-26",
+      "floor": "мужской",
+      "contactPhoneNumber": "89176224546",
+      "email": "example@gmail.com",
+      "resume": "",
+      "captchaRobot": true,
+      "captchaConsent": true
+    },
+    {
+      "id": "8d6615cf-2f7c-4653-8149-6a13f230329a",
+      "vacancy": "пекарь",
+      "fio": "Денисова Светлана Викторовна",
+      "dateOfBirth": "2024-09-25",
+      "floor": "женский",
+      "contactPhoneNumber": "89061400693",
+      "email": "example@gmail.com",
+      "resume": "",
+      "captchaRobot": true,
+      "captchaConsent": true
+    },
+    {
+      "id": "c3028a19-e091-46cf-8b78-a247c276c99e",
+      "vacancy": "кассир",
+      "fio": "Денисов Евгений Владимирович",
+      "dateOfBirth": "2024-09-26",
+      "floor": "мужской",
+      "contactPhoneNumber": "89061400698",
+      "email": "example@gmail.com",
+      "resume": "",
+      "captchaRobot": true,
+      "captchaConsent": true
+    }
+  ]
+}

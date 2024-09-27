@@ -1,0 +1,38 @@
+.body {
+  margin-bottom: 22px;
+  background-color: #f5f5f5;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 65px;
+}
+
+.logo {
+  margin-right: 5px;
+
+  & > img {
+    max-width: 245px;
+  }
+}
+
+.cross {
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    padding: 20px 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrap {
+    padding: 20px 15px;
+  }
+}

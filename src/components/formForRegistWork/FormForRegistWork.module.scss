@@ -1,0 +1,290 @@
+.title {
+  font-size: 74px;
+  font-weight: 500;
+  line-height: 66px;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form {
+  flex-basis: 63%;
+}
+
+.fields {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.75px;
+
+  & > span {
+    padding-left: 15px;
+    color: rgb(0, 250, 0);
+  }
+}
+
+.field {
+  height: 40px;
+  padding: 0 7px;
+  margin: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.fio {
+  height: 40px;
+  padding: 0 7px;
+  margin-bottom: 7px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.checks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  & > div {
+    width: 100%;
+  }
+
+  & > div > input {
+    margin-right: 5px;
+  }
+}
+
+.borderFile {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 50px;
+  color: transparent;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+input[type='file']::file-selector-button {
+  width: 100%;
+  text-align: start;
+  position: absolute;
+  top: 110px;
+  left: 0px;
+  border: 0px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+
+.wrapField {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.wrapCheckRobot {
+  padding: 10px;
+  margin-right: 10px;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.checkRobot {
+  margin-right: 7px;
+}
+
+.subtitleField {
+  flex-basis: 50%;
+  color: gray;
+}
+
+.wrapCheckAgreement {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.checkAgreement {
+  margin-right: 7px;
+}
+
+.descr {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.75px;
+}
+
+.btn {
+  width: 100%;
+  height: 47px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.82px;
+}
+
+.inf {
+  flex-basis: 37%;
+}
+
+.ourGoal {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40.58px;
+  margin-bottom: 10px;
+}
+
+.descrGoal {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.82px;
+}
+
+.phoneForCall {
+  width: 100%;
+  height: 73px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.43px;
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    flex-basis: 100%;
+  }
+
+  .fields {
+    width: 100%;
+  }
+
+  .field {
+    margin-right: 5px;
+  }
+
+  .inf {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .phoneForCall {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+
+  .wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    flex-basis: 100%;
+  }
+
+  .fields {
+    width: 100%;
+  }
+
+  .field {
+    margin-right: 5px;
+  }
+
+  .group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapField {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapCheckRobot {
+    width: 92%;
+    padding: 10px;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .checkRobot {
+    margin: 0;
+  }
+
+  .subtitleField {
+    width: 100%;
+    flex-basis: 100%;
+    color: gray;
+  }
+
+  .inf {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  .phoneForCall {
+    margin-bottom: 50px;
+  }
+
+  .ourGoal {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.43px;
+  }
+}

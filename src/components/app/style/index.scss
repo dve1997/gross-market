@@ -1,0 +1,44 @@
+@import 'node_modules/normalize-scss/sass/normalize/import-now';
+@import './global.scss';
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  color: black;
+  font-family: var(--font-family-eqclid-circular-b);
+}
+
+.conteiner {
+  max-width: 1240px;
+  min-height: 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .conteiner {
+    max-width: 768px;
+    min-height: 100%;
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .conteiner {
+    max-width: 375px;
+    min-height: 100%;
+    margin: 10px auto 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+  }
+}

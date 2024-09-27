@@ -1,0 +1,264 @@
+.body {
+  min-height: 400px;
+  padding: 0 65px;
+  margin-bottom: 22px;
+  background-color: #f5f5f5;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  top: 75%;
+  left: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.left {
+  padding: 13px 14px;
+  color: rgb(165, 165, 165);
+  cursor: pointer;
+}
+
+.left:hover {
+  color: black;
+}
+
+.right {
+  padding: 13px 14px;
+  color: rgb(165, 165, 165);
+  cursor: pointer;
+}
+
+.right:hover {
+  color: black;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.descr {
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+.title {
+  width: 80%;
+  font-size: 74px;
+  font-weight: 500;
+  line-height: 66px;
+}
+
+.view {
+  width: 60%;
+  position: relative;
+
+  & > img {
+    border-radius: 13em / 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.specialityViewOne {
+  position: absolute;
+  top: 12%;
+  left: 61%;
+  object-fit: cover;
+}
+
+.inf {
+  padding: 12px 15px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30.43px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.nameViewOne {
+  position: absolute;
+  top: 76%;
+  left: 21%;
+  object-fit: cover;
+}
+
+.nameViewTwo {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  object-fit: cover;
+}
+
+.specialityViewTwo {
+  position: absolute;
+  top: 75%;
+  left: 62%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .body {
+    padding: 0 35px;
+    margin-bottom: 11px;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 56px;
+  }
+
+  .wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .slide {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .view {
+    position: relative;
+
+    & > img {
+      border-radius: 7em 0 0 7em / 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .specialityViewTwo {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 375px) {
+  .body {
+    min-height: 590px;
+    margin-bottom: 7px;
+    padding: 0 15px;
+  }
+
+  .title {
+    width: 100%;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .slide {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .descr {
+    width: 100%;
+    height: 20%;
+  }
+
+  .view {
+    width: 100%;
+    height: 80%;
+    position: relative;
+
+    & > img {
+      border-radius: 10em 10em 0 0 / 25%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .specialityViewOne {
+    position: absolute;
+    top: 21%;
+    left: 61%;
+    object-fit: cover;
+  }
+
+  .nameViewOne {
+    position: absolute;
+    top: 76%;
+    left: 4%;
+    object-fit: cover;
+  }
+
+  .nameViewTwo {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    object-fit: cover;
+  }
+
+  .specialityViewTwo {
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    object-fit: cover;
+  }
+}

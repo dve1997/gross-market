@@ -1,0 +1,91 @@
+.body {
+  max-height: 553px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 65px;
+  margin-bottom: 22px;
+}
+
+.descr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40.58px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  padding: 13px 14px;
+  color: rgb(165, 165, 165);
+  cursor: pointer;
+}
+
+.left:hover {
+  color: black;
+}
+
+.right {
+  padding: 13px 14px;
+  color: rgb(165, 165, 165);
+  cursor: pointer;
+}
+
+.right:hover {
+  color: black;
+}
+
+.view {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  max-width: 2587px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .body {
+    max-height: 483px;
+    padding: 0 35px;
+    margin-bottom: 11px;
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30.58px;
+  }
+}
+
+@media (max-width: 375px) {
+  .body {
+    max-height: 406px;
+    margin-bottom: 7px;
+    padding: 0 15px;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.58px;
+  }
+
+  .nav {
+    display: none;
+  }
+}

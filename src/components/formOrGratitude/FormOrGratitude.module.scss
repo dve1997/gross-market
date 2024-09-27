@@ -1,0 +1,24 @@
+.body {
+  min-height: 400px;
+  padding: 0 65px;
+  margin-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .body {
+    padding: 0 35px;
+    margin-bottom: 11px;
+  }
+}
+
+@media (max-width: 375px) {
+  .body {
+    min-height: 440px;
+    margin-bottom: 7px;
+    padding: 0 15px;
+  }
+}
