@@ -1,0 +1,15 @@
+.body {
+  grid-column: 1/13;
+}
+
+@media (max-width: 43.12rem) {
+  .body {
+    grid-column: 1/9;
+  }
+}
+
+@media (max-width: 20.5rem) {
+  .body {
+    grid-column: 1/7;
+  }
+}

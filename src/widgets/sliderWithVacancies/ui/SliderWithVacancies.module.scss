@@ -1,0 +1,56 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.5rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.53rem;
+}
+
+.arrows {
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 0.31rem;
+}
+
+.arrow {
+  color: grey;
+  padding: 16%;
+}
+
+.arrow:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.slides {
+  width: 161.87rem;
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 43.12rem) {
+  .arrows {
+    display: none;
+  }
+}
+
+@media (max-width: 20.5rem) {
+  .title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+  }
+}

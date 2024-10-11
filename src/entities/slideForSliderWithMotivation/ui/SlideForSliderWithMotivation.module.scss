@@ -1,0 +1,167 @@
+.slide {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  flex-basis: 50%;
+  padding: 2.7% 0.3%;
+}
+
+.title {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 4.12rem;
+  max-width: 27.81rem;
+}
+
+.arrows {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-radius: 0.31rem;
+}
+
+.arrow {
+  color: grey;
+  padding: 16%;
+}
+
+.arrow:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.img {
+  flex-basis: 50%;
+  position: relative;
+
+  & > img {
+    border-radius: 13em / 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.vacancy {
+  background-color: #ffffff;
+  border-radius: 3.12rem;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  width: 26%;
+  height: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+.name {
+  background-color: #ffffff;
+  border-radius: 3.12rem;
+  position: absolute;
+  top: 75%;
+  left: 15%;
+  width: 26%;
+  height: 13%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+}
+
+@media (max-width: 43.12rem) {
+  .img {
+    flex-basis: 50%;
+    position: relative;
+
+    & > img {
+      border-radius: 7em 0 0 7em / 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .vacancy {
+    top: 10%;
+    left: 50%;
+    width: 44.5%;
+    height: 14.5%;
+  }
+
+  .name {
+    width: 44.5%;
+    height: 14.5%;
+  }
+}
+
+@media (max-width: 20.5rem) {
+  .slide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box {
+    flex-basis: 35%;
+  }
+
+  .title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+  }
+
+  .arrows {
+    display: none;
+  }
+
+  .img {
+    flex-basis: 65%;
+    position: relative;
+    padding: 0 0 155% 0;
+
+    & > img {
+      border-radius: 10em 10em 0 0 / 25%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .vacancy {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 51.5%;
+    height: 12.5%;
+  }
+
+  .name {
+    position: absolute;
+    top: 65%;
+    left: 5%;
+    width: 51.5%;
+    height: 12.5%;
+  }
+}
